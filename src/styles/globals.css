@@ -40,7 +40,7 @@
   --card-border-rgb: 131, 134, 135;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -100,8 +100,90 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
     color-scheme: dark;
   }
 }
+
+
+@keyframes slideUp {
+    from {transform: translateY(50vh);}
+    to {transform: translateY(0vh);}
+}
+
+@keyframes slideInLeft {
+  from {transform: translatex(-50vw) rotate(0deg);}
+  to {transform: translatex(0vw) rotate(360deg);}
+}
+
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.navbar-options {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  width: 30vw;
+  margin-right: 1vw;
+  font-size: 3vh;
+}
+
+.option:hover {
+    color: white;
+}
+
+.homepage-wrap {
+  overflow: hidden;
+  position: relative;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.homepage-bg {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.business-logo{
+  animation-name: slideInLeft;
+  animation-duration: 1.5s;
+  height: 33vh;
+  width: 18vw;
+  margin-left: -70vw;
+  margin-top: -40vh;
+  border-radius: 50%;
+}
+
+.business-name {
+  animation-name: slideUp;
+  animation-duration: 1.5s;
+  text-align: center;
+  height: 15vh;
+  width: 30vw;
+  font-size: 8vh;
+}
+
+
