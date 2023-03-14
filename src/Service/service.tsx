@@ -9,7 +9,7 @@ const Service = ({service}: {service: ServiceProp}) => {
     const {serviceName, serviceDescrip} = service;
 
   return (
-    <div>
+    <div className='formatted-service'>
        <h2>{serviceName}</h2>
        <p>{serviceDescrip}</p>
     </div>
