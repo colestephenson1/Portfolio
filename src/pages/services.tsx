@@ -30,7 +30,7 @@ const Services = () => {
                 src="https://img.freepik.com/free-vector/blue-smooth-flowing-dynamic-wave-background_1017-33405.jpg?size=626&ext=jpg&ga=GA1.1.1060710081.1678821843&semt=ais"
                 alt=""
             />
-            <div className="homepage-content">
+            <div className="service-content">
                 {serviceBundle}
             </div>
         </div>

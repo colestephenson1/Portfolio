@@ -113,8 +113,8 @@ a {
 }
 
 @keyframes slideInLeft {
-  from {transform: translatex(-50vw) rotate(0deg);}
-  to {transform: translatex(0vw) rotate(360deg);}
+  from {transform: translatex(-50vw)}
+  to {transform: translatex(0vw)}
 }
 
 .navbar {
@@ -131,7 +131,6 @@ a {
   justify-content: space-evenly;
   height: auto;
   width: 30vw;
-  margin-right: 1vw;
   font-size: 3vh;
 }
 
@@ -184,6 +183,18 @@ a {
   height: 15vh;
   width: 30vw;
   font-size: 8vh;
+}
+
+.service-content {
+  animation-name: slideInLeft;
+  animation-duration: 1.5s;
+  margin-top: -20vh;
+  margin-left: -1.5vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  width: 100%
 }
 
 
