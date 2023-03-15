@@ -216,4 +216,35 @@ a {
   transform: translateY(-5vh);
 }
 
+.shanta-portrait {
+  border-radius: 50%;
+  height: 40vh;
+  width: 20vw;
+}
+
+.bio {
+  height: 35vh;
+  width: 50vw;
+  background-color: beige;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+}
+
+.text-for-bio {
+  font-size: 2.75vh
+}
+
+.about-content {
+  animation-name: slideUp;
+  animation-duration: 1.5s;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  width: 80vw;
+}
+
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from '@/Layout/Layout'
-import Service from '@/Service/service'
+import Layout from '@/Components/Layout/Layout'
+import Service from '@/Components/Service/service'
 
 type Arr = [{serviceName: string, serviceDescrip: string}, {serviceName: string, serviceDescrip: string}, {serviceName: string, serviceDescrip: string}]
 
