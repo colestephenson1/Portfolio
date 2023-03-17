@@ -11,7 +11,7 @@ const Services = () => {
     const services: Arr = [
         { serviceName: 'Defining the Scope of Work',
         serviceDescrip: 'Preliminary Discussions:',
-        serviceDetail: 'Our team of expers will meet with leadership and customize the engagement to your specific needs',
+        serviceDetail: 'Our team of experts will meet with leadership and customize the engagement to your specific needs.',
         count: 1 },
         { serviceName: 'Discover Phase',
         serviceDescrip: 'Current State Deep Dive:' ,
@@ -19,11 +19,11 @@ const Services = () => {
         count: 2},
         { serviceName: 'Dream Phase',
         serviceDescrip: 'Envisioning the possible:',
-        serviceDetail: 'We help you collaboratively work to imagine what might be possible if the best of what is coul dbe everything we imagine the ideal state to be. *This might include additional mission and Vision or Core Value development work.',
+        serviceDetail: 'We help you collaboratively work to imagine what might be possible if the best of what is could be everything we imagine the ideal state to be. *This might include additional mission and Vision or Core Value development work.',
         count: 3 },
         { serviceName: "Design Phase",
         serviceDescrip: "Action Planning:",
-        serviceDetail: "As needed, our team will support you with deepening the work your organization needs by capitalizing on existing processes and practices and mapping a plan for modifying when needed. *This might include customized equity audit work, additional workshops, or evaluation tool creatin work",
+        serviceDetail: "As needed, our team will support you with deepening the work your organization needs by capitalizing on existing processes and practices and mapping a plan for modifying when needed. *This might include customized equity audit work, additional workshops, or evaluation tool creating work.",
         count: 4},
         { serviceName: "Destiny Phase",
         serviceDescrip: "Ongoing Support:",
@@ -31,7 +31,7 @@ const Services = () => {
         count: 5},
         { serviceName: "Alternative Stand Alone Workshops",
         serviceDescrip: "Individualized Interactive Professional Development for your Context:",
-        serviceDetail: "Equity, Social Justice, Anti-Racism, Trauma Informed Practices, Community Leadership or other customized training session to deepen understanding will support your staff or stakeholders in doing further work. Include a 1 hour follow up/check in session to monitor ongoing work. *This might be introductory, or might include equity audit work",
+        serviceDetail: "Equity, Social Justice, Anti-Racism, Trauma Informed Practices, Community Leadership or other customized training session to deepen understanding will support your staff or stakeholders in doing further work. Include a 1 hour follow up/check in session to monitor ongoing work. *This might be introductory, or might include equity audit work.",
         count: 6}
       ]
 
