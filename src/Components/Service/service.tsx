@@ -11,8 +11,8 @@ const Service = ({service}: {service: ServiceProp}) => {
   return (
     <div className='formatted-service'>
        <h1>{count}. {serviceName}</h1>
-       <p><strong>{serviceDescrip}</strong></p>
-       <p>{serviceDetail}</p>
+       <p className='service-descrip'><strong>{serviceDescrip}</strong></p>
+       <p className='service-detail'>{serviceDetail}</p>
        {serviceDetail.includes('*') && <p>* add-on services and supports can be added</p> }
     </div>
   )
