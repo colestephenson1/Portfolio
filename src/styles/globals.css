@@ -117,13 +117,28 @@ a {
   to {transform: translatex(0vw)}
 }
 
+@keyframes slideInRight {
+  from {transform: translatex(50vw)}
+  to {transform: translatex(0vw)}
+}
+
+.footer {
+  width: 100vw;
+  height: 7.5vh;
+  background-color: beige;
+}
+
+.linkedIn-link {
+  height: 20vh;
+}
+
 .navbar {
   width: 100vw;
   height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
+  background-color: beige;
 }
 
 .navbar-options {
@@ -135,18 +150,27 @@ a {
 }
 
 .option:hover {
-    color: white;
+    color: darkgreen;
 }
 
 .homepage-wrap {
   overflow: hidden;
   position: relative;
-  height: 90vh;
+  height: 82.5vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   
+}
+
+.service-wrap {
+  position: relative;
+  height: 275vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .homepage-bg {
@@ -158,11 +182,20 @@ a {
   height: auto;
 }
 
+.service-bg {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 275vh;
+}
+
 .homepage-content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
   position: relative;
 }
 
@@ -171,30 +204,65 @@ a {
   animation-duration: 1.5s;
   height: 33vh;
   width: 18vw;
-  margin-left: -70vw;
-  margin-top: -40vh;
   border-radius: 50%;
+  margin-left: -5vw;
+  margin-top: -15vh;
+}
+
+.homepage-greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50vh;
+  padding: 7vh;
+  margin-left: 1vw;
 }
 
 .business-name {
-  animation-name: slideUp;
-  animation-duration: 1.5s;
   text-align: center;
   height: 15vh;
-  width: 30vw;
+  width: 40vw;
   font-size: 8vh;
+  color: darkgreen
+}
+
+.business-slogan {
+  color: darkgreen;
+  font-size: 3.5vh;
+}
+
+.business-subslogan {
+  color: darkgreen
+  
+}
+
+.community-pic {
+  animation-name: slideInRight;
+  animation-duration: 1.5s;
+  border-radius: 50%;
+  height: 33vh;
+  width: 18vw;
+  margin-right: -6vw;
+  margin-top: -15vh;
 }
 
 .service-content {
   animation-name: slideInLeft;
   animation-duration: 1.5s;
   margin-top: -5vh;
-  margin-left: -1.5vw;
+  /* margin-left: -1.5vw; */
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  width: 100%
+  width: 100%;
+}
+
+.service-bundle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5vh;
 }
 
 .formatted-service {
@@ -202,9 +270,10 @@ a {
   height: 70vh;
   background-color: beige;
   border-radius: 5%;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   transition-property: transform;
   transition-duration: 0.3s;
@@ -213,13 +282,30 @@ a {
 }
 
 .formatted-service:hover {
-  transform: translateY(-5vh);
+  transform: translateY(-3vh);
+}
+
+.journey-title {
+  margin-top: -20vh;
+  padding: 2rem
+}
+
+.process-image {
+  height: 90vh;
+  width: 70vw;
+  padding: 5rem;
+  margin-top: -4rem;
+  object-fit: contain;
+}
+
+.journey-title {
+  color: darkgreen
 }
 
 .shanta-portrait {
-  border-radius: 50%;
-  height: 40vh;
-  width: 20vw;
+  height: 60vh;
+  width: 23vw;
+  border: 1px solid beige;
 }
 
 .bio {
